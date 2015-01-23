@@ -4,9 +4,10 @@ motor_shaft_diameter=6.350; //nema 23
 
 m5_shaft_diameter=5;
 //took actual measurements of a nut
-m5_nut_flat_width=8; // references say 7.612;
-m5_nut_corner_width=9; //refs 8.79;
-m5_nut_thickness=4; //refs 4.7;
+m5_nut_flat_width=8; // some references say 7.612;
+m5_nut_thickness=4;
+
+m5_nut_corner_width=(2/sqrt(3))*m5_nut_flat_width;
 
 cross_shaft_placement=14;
 cross_shaft_length=30; //arbitrary, but so we don't have magic numbers below
